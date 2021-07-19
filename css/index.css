@@ -1,0 +1,372 @@
+h4,ul,li,h3,p,h2,h1,body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "微软雅黑";
+}
+/* .reco_list{
+    border: 2px solid rebeccapurple;
+} */
+ul,li{
+    list-style: none;
+}
+a{
+    color: #333;
+    /* 设置文本的修饰 */
+    text-decoration: none;
+}
+a:hover{
+    color: #31c27c;
+}
+.song_reco,.new_song,.brilliant,.new_die,.rank,.foot{
+    padding:51px 0px 50px 0px;
+}
+.reco_con , .song_con,.bri_con,.die_con,.rank_con,.font_con{
+    width: 1200px;
+    /* 水平居中 */
+    margin: 0 auto;
+}
+.tit{
+    font-size: 30px;
+    color: #333;
+    /* 设置元素间隔 */
+    letter-spacing: 14px;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 34px;
+}
+.reco_list{
+    /* overflow 属性规定当内容溢出元素框时发生的事情  hidden 内容会被修剪，并且其余内容是不可见的。*/
+    overflow: hidden;
+}
+.reco_list li{
+    width: 224px;
+    float: left;
+    margin-right: 20px;
+}
+.reco_list .nomargin{
+    margin-right: 0;
+}
+.list_pic img{
+    width: 224px;
+    height: 224px;
+}
+.list_tit{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 28px;
+    margin-top: 6px;
+}
+/* 新歌首发 */
+.tab
+{
+     /* overflow 属性规定当内容溢出元素框时发生的事情  hidden 内容会被修剪，并且其余内容是不可见的。*/ 
+    overflow: hidden;
+    padding-left: 360px;
+    margin-bottom: 39px;
+}
+.tab a{
+    font-size: 14px;
+    line-height: 22px;
+    float: left;
+    margin-right: 52px;
+}
+.song_list {
+    overflow: hidden;
+}
+.song_list li{
+    padding: 12px 0px;
+    overflow: hidden;
+    border-bottom:1px solid #f2f2f2 ;
+    width: 380px;
+    float: left;
+    margin-right: 30px;
+}
+.song_list .nomargin{
+    margin: 0;
+}
+.pic,.txt,.time{
+    float: left;
+}
+.pic{
+    height: 86px;
+    width: 86px;
+}
+.pic img{
+    width: 86px;
+    height: 86px;
+}
+
+.txt h3{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 25px;
+    /* 文字溢出     ellipsis 指溢出显示省略号 */
+    text-overflow: ellipsis;
+    overflow: hidden;
+    /* 规定段落中的文本不进行换行 */
+    white-space: nowrap;
+}
+.txt{
+    padding: 19px 0px 17px 0px ;
+    margin-left: 25px;
+    width: 200px ;
+    margin: 0px 38px 0px 14px;
+   
+}
+.txt p{
+    font-size: 14px;
+    line-height: 25px;
+}
+.txt p a{
+    color: #999;
+
+}
+.time{
+    font-size: 14px;
+    color: #999;
+    line-height: 86px;
+}
+
+/* 精彩推荐 */
+.bri_list{
+    overflow: hidden;
+}
+.bri_list li{
+    width: 590px;
+    height: 235px;
+    float: left;
+}
+.bri_list .flo_rig{
+    float:right;
+}
+.bri_list li img{
+    width: 590px;
+    height: 235px;
+}
+/* 新碟首发 */
+.die_tab
+{
+     /* overflow 属性规定当内容溢出元素框时发生的事情  hidden 内容会被修剪，并且其余内容是不可见的。*/ 
+    overflow: hidden;
+    padding-left: 415px;
+    margin-bottom: 39px;
+}
+.die_tab a{
+    font-size: 14px;
+    line-height: 22px;
+    float: left;
+    margin-right: 52px;
+}
+.die_list {
+    overflow: hidden;
+}
+.die_list li{
+    padding: 12px 0px;
+    overflow: hidden;
+    border-bottom:1px solid #f2f2f2 ;
+    width: 220px;
+    float: left;
+    margin-right: 15px;
+}
+.die_list .nomargin{
+    margin: 0;
+}
+.pidie_pic{
+    float: left;
+}
+.die_pic{
+    height: 200px;
+    width: 200px;
+}
+.die_pic img{
+    width: 200px;
+    height: 200px;
+}
+.die_list p a{
+    color: #999;
+}
+.die_list p a:hover{
+    color: #31c27c;
+}
+.rank_list{
+    overflow: hidden;
+}
+.list_item {
+    width: 164px;
+    height: 430px;
+    margin-right: 20px;
+    float: left;
+    background: url(../image/1\ \(12\).jpg) no-repeat;
+    padding: 70px 30px 0px ;
+}
+.two{
+    background-position: -224px 0px;
+}
+.there{
+    background-position: -448px 0px;
+}
+.four{
+    background-position: -672px 0px;
+}
+.five{
+    background-position: -896px 0px;
+}
+.rank_list .nomargin{
+    margin-right: 0;
+}
+.list_item h3{
+    font-size: 26px;
+    line-height: 58px;
+    color: #fff;
+    font-weight: 400px;
+    text-align: center;
+}
+.list_item i{
+    display: block;
+    width: 36px;
+    height: 2px;
+    background-color: #fff;
+    margin: 32px auto;
+}
+.item_del li{
+    font-size: 13px;
+    color: #fff;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.item_del .num{
+    line-height: 29px;
+    float: left;
+    width: 20px;
+}
+.item_del .del_txt{
+    float: left;
+    width: 144px;
+}
+.del_txt p{
+    line-height: 29px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.del_txt p a{
+    color: #fff;
+}
+.del_txt p a:hover{
+    color: #fff;
+}
+/* 底部 */
+.foot{
+    background: #333;
+}
+.foot a{
+    color: #999;
+}
+.bt{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 77px;
+}
+.down_item i{
+    display: block;
+    background: url(../image/1\ \(1\).jpg) no-repeat;
+    margin: 0px 29px;
+    height: 47px;
+}
+.con_top{
+    overflow: hidden;
+}
+.download,.pro{
+    float: left;
+}
+.download{
+    width: 438px;
+}
+.pro{
+    width: 370px;
+    margin-right: 80px;
+}
+.down_list{
+    overflow: hidden;
+    display: block;
+}
+.down_item{
+    float: left;
+}
+.item01{
+    margin-left: -29px;
+}
+.pro .item01{
+    margin-left: -24px;
+}
+.pro .item01 i{
+    width: 41px;
+    background-position: -360px -3px;
+}
+.pro .item01 a:hover i{
+    
+    background-position: -360px -53px;
+}
+.item01 i{
+    width: 37px;
+    background-position: -3px -3px;
+}
+.item01 a:hover{
+    background-position: -3px -53px;
+}
+.pro .item02 i{
+    width: 34px;
+    background-position: -464px -3px;
+}
+.pro .item02 a:hover i{
+    background-position: -464px -53px;
+}
+.item02 i{
+    width: 46px;
+    background-position: -92px -3px;
+}
+.item02 a:hover{
+    background-position: -3px -53px;
+}
+.pro .item03 i{
+    width: 40px;
+    background-position: -563px -3px;
+}
+.pro .item03 a:hover i{
+    background-position: -563px -53px;
+}
+.item03 i{
+    width: 37px;
+    background-position: -190px -50px;
+}
+.item03 a:hover{
+    background-position: -3px -53px;
+}
+.pro .item04 i{
+    width: 40px;
+    background-position: -650px -3px;
+}
+.pro .item04 a:hover i{
+    background-position: -650px -53px;
+}
+.item04 i{
+    width: 34px;
+    background-position: -279px -3px;
+}
+.item04 a:hover{
+    background-position: -3px -53px;
+}
+.down_item span{
+    display: block;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+}
+.down_item  a:hover span{
+    color: #31c27c;
+}
+.item05{
+    margin-right: 29px;
+}
